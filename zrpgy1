@@ -554,7 +554,7 @@ function User.CreateLib(usName, themeList)
 				Sample.Parent = buttonElement
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
-				Sample.Image = "http://www.roblox.com/asset/?id=0"
+				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 				Sample.ImageColor3 = themeList.SchemeColor
 				Objects[Sample] = "ImageColor3"
 				Sample.ImageTransparency = 0.600
@@ -985,7 +985,7 @@ function User.CreateLib(usName, themeList)
 				Sample.Parent = toggleElement
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
-				Sample.Image = "http://www.roblox.com/asset/?id=0"
+				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 				Sample.ImageColor3 = themeList.SchemeColor
 				Sample.ImageTransparency = 0.600
 
