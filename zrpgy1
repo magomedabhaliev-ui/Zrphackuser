@@ -554,7 +554,7 @@ function User.CreateLib(usName, themeList)
 				Sample.Parent = buttonElement
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
-				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+				Sample.Image = "http://www.roblox.com/asset/?id=0"
 				Sample.ImageColor3 = themeList.SchemeColor
 				Objects[Sample] = "ImageColor3"
 				Sample.ImageTransparency = 0.600
@@ -740,7 +740,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -752,7 +752,7 @@ function User.CreateLib(usName, themeList)
 				write.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				write.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				write.Size = UDim2.new(0, 21, 0, 21)
-				write.Image = "rbxassetid://3926305904"
+				write.Image = "rbxassetid://0"
 				write.ImageColor3 = themeList.SchemeColor
 				write.ImageRectOffset = Vector2.new(324, 604)
 				write.ImageRectSize = Vector2.new(36, 36)
@@ -939,7 +939,7 @@ function User.CreateLib(usName, themeList)
 				toggleDisabled.BackgroundTransparency = 1.000
 				toggleDisabled.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				toggleDisabled.Size = UDim2.new(0, 21, 0, 21)
-				toggleDisabled.Image = "rbxassetid://3926309567"
+				toggleDisabled.Image = "rbxassetid://0"
 				toggleDisabled.ImageColor3 = themeList.SchemeColor
 				toggleDisabled.ImageRectOffset = Vector2.new(628, 420)
 				toggleDisabled.ImageRectSize = Vector2.new(48, 48)
@@ -950,7 +950,7 @@ function User.CreateLib(usName, themeList)
 				toggleEnabled.BackgroundTransparency = 1.000
 				toggleEnabled.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				toggleEnabled.Size = UDim2.new(0, 21, 0, 21)
-				toggleEnabled.Image = "rbxassetid://3926309567"
+				toggleEnabled.Image = "rbxassetid://0"
 				toggleEnabled.ImageColor3 = themeList.SchemeColor
 				toggleEnabled.ImageRectOffset = Vector2.new(784, 420)
 				toggleEnabled.ImageRectSize = Vector2.new(48, 48)
@@ -976,7 +976,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -985,7 +985,7 @@ function User.CreateLib(usName, themeList)
 				Sample.Parent = toggleElement
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
-				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+				Sample.Image = "http://www.roblox.com/asset/?id=0"
 				Sample.ImageColor3 = themeList.SchemeColor
 				Sample.ImageTransparency = 0.600
 
@@ -1206,7 +1206,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -1245,7 +1245,7 @@ function User.CreateLib(usName, themeList)
 				write.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				write.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				write.Size = UDim2.new(0, 21, 0, 21)
-				write.Image = "rbxassetid://3926307971"
+				write.Image = "rbxassetid://0"
 				write.ImageColor3 = themeList.SchemeColor
 				write.ImageRectOffset = Vector2.new(404, 164)
 				write.ImageRectSize = Vector2.new(36, 36)
@@ -1507,7 +1507,7 @@ function User.CreateLib(usName, themeList)
 				listImg.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				listImg.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				listImg.Size = UDim2.new(0, 21, 0, 21)
-				listImg.Image = "rbxassetid://3926305904"
+				listImg.Image = "rbxassetid://0"
 				listImg.ImageColor3 = themeList.SchemeColor
 				listImg.ImageRectOffset = Vector2.new(644, 364)
 				listImg.ImageRectSize = Vector2.new(36, 36)
@@ -1532,7 +1532,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -1958,7 +1958,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -2022,7 +2022,7 @@ function User.CreateLib(usName, themeList)
 				touch.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				touch.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				touch.Size = UDim2.new(0, 21, 0, 21)
-				touch.Image = "rbxassetid://3926305904"
+				touch.Image = "rbxassetid://0"
 				touch.ImageColor3 = themeList.SchemeColor
 				touch.ImageRectOffset = Vector2.new(364, 284)
 				touch.ImageRectSize = Vector2.new(36, 36)
@@ -2186,7 +2186,7 @@ function User.CreateLib(usName, themeList)
 				touch.BorderColor3 = Color3.fromRGB(27, 42, 53)
 				touch.Position = UDim2.new(0.0199999996, 0, 0.180000007, 0)
 				touch.Size = UDim2.new(0, 21, 0, 21)
-				touch.Image = "rbxassetid://3926305904"
+				touch.Image = "rbxassetid://0"
 				touch.ImageColor3 = themeList.SchemeColor
 				touch.ImageRectOffset = Vector2.new(44, 964)
 				touch.ImageRectSize = Vector2.new(36, 36)
@@ -2230,7 +2230,7 @@ function User.CreateLib(usName, themeList)
 				viewInfo.Position = UDim2.new(0.930000007, 0, 0.151999995, 0)
 				viewInfo.Size = UDim2.new(0, 23, 0, 23)
 				viewInfo.ZIndex = 2
-				viewInfo.Image = "rbxassetid://3926305904"
+				viewInfo.Image = "rbxassetid://0"
 				viewInfo.ImageColor3 = themeList.SchemeColor
 				viewInfo.ImageRectOffset = Vector2.new(764, 764)
 				viewInfo.ImageRectSize = Vector2.new(36, 36)
@@ -2293,7 +2293,7 @@ function User.CreateLib(usName, themeList)
 				rbgcircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				rbgcircle.BackgroundTransparency = 1.000
 				rbgcircle.Size = UDim2.new(0, 14, 0, 14)
-				rbgcircle.Image = "rbxassetid://3926309567"
+				rbgcircle.Image = "rbxassetid://0"
 				rbgcircle.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				rbgcircle.ImageRectOffset = Vector2.new(628, 420)
 				rbgcircle.ImageRectSize = Vector2.new(48, 48)
@@ -2315,7 +2315,7 @@ function User.CreateLib(usName, themeList)
 				darkcircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				darkcircle.BackgroundTransparency = 1.000
 				darkcircle.Size = UDim2.new(0, 14, 0, 14)
-				darkcircle.Image = "rbxassetid://3926309567"
+				darkcircle.Image = "rbxassetid://0"
 				darkcircle.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				darkcircle.ImageRectOffset = Vector2.new(628, 420)
 				darkcircle.ImageRectSize = Vector2.new(48, 48)
@@ -2326,7 +2326,7 @@ function User.CreateLib(usName, themeList)
 				toggleDisabled.BackgroundTransparency = 1.000
 				toggleDisabled.Position = UDim2.new(0.704659104, 0, 0.0657142699, 0)
 				toggleDisabled.Size = UDim2.new(0, 21, 0, 21)
-				toggleDisabled.Image = "rbxassetid://3926309567"
+				toggleDisabled.Image = "rbxassetid://0"
 				toggleDisabled.ImageColor3 = themeList.SchemeColor
 				toggleDisabled.ImageRectOffset = Vector2.new(628, 420)
 				toggleDisabled.ImageRectSize = Vector2.new(48, 48)
@@ -2337,7 +2337,7 @@ function User.CreateLib(usName, themeList)
 				toggleEnabled.BackgroundTransparency = 1.000
 				toggleEnabled.Position = UDim2.new(0.704999983, 0, 0.0659999996, 0)
 				toggleEnabled.Size = UDim2.new(0, 21, 0, 21)
-				toggleEnabled.Image = "rbxassetid://3926309567"
+				toggleEnabled.Image = "rbxassetid://0"
 				toggleEnabled.ImageColor3 = themeList.SchemeColor
 				toggleEnabled.ImageRectOffset = Vector2.new(784, 420)
 				toggleEnabled.ImageRectSize = Vector2.new(48, 48)
