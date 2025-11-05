@@ -2293,7 +2293,7 @@ function User.CreateLib(usName, themeList)
 				rbgcircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				rbgcircle.BackgroundTransparency = 1.000
 				rbgcircle.Size = UDim2.new(0, 14, 0, 14)
-				rbgcircle.Image = "rbxassetid://0"
+				rbgcircle.Image = "rbxassetid://3926309567"
 				rbgcircle.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				rbgcircle.ImageRectOffset = Vector2.new(628, 420)
 				rbgcircle.ImageRectSize = Vector2.new(48, 48)
@@ -2315,7 +2315,7 @@ function User.CreateLib(usName, themeList)
 				darkcircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				darkcircle.BackgroundTransparency = 1.000
 				darkcircle.Size = UDim2.new(0, 14, 0, 14)
-				darkcircle.Image = "rbxassetid://0"
+				darkcircle.Image = "rbxassetid://3926309567"
 				darkcircle.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				darkcircle.ImageRectOffset = Vector2.new(628, 420)
 				darkcircle.ImageRectSize = Vector2.new(48, 48)
