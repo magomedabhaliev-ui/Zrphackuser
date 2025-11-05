@@ -52,38 +52,22 @@ local themes = {
 	SchemeColor = Color3.fromRGB(74, 99, 135),
 	Background = Color3.fromRGB(26, 26, 26),
 	Header = Color3.fromRGB(28, 29, 34),
-	TextColor = Color3.fromRGB(255, 255, 255),
-	ElementColor = Color3.fromRGB(32, 32, 38),
-
-	-- Новый параметр для цвета обводки
-	StrokeColor = Color3.fromRGB(95, 66, 190), 
-	-- Новый параметр для прозрачности обводки (0 = непрозрачная, 1 = полностью прозрачная)
-	StrokeTransparency = 0.35,
-	Thickness = 2, -- Толщина обводки (например, 1 или 2)
-	StrokeSizingMode = Enum.StrokeSizingMode.Outer, -- Режим изменения размера (Inner, Outer, FixedSize)
-	LineJoinMode = Enum.LineJoinMode.Round
+	TextColor = Color3.fromRGB(255,255,255),
+	ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
-	RJTheme1 = {
+	User1 = {
 		-- Цвет фона у Секций
 		SchemeColor = Color3.fromRGB(168, 85, 247),
 		-- Цвет фона в правой части UI
 		Background = Color3.fromRGB(26, 26, 26),
 		--sdasd
 		-- Цвет фона в левой части UI
-		Header = Color3.fromRGB(15, 15, 15),
+		Header = Color3.fromRGB(15,15,15),
 		-- Цвет текста
-		TextColor = Color3.fromRGB(255, 255, 255),
+		TextColor = Color3.fromRGB(255,255,255),
 		-- Цвет фона у кнопок
-		ElementColor = Color3.fromRGB(20, 20, 20),
-
-		-- Новый параметр для цвета обводки в RJTheme1
-		StrokeColor = Color3.fromRGB(95, 66, 190), -- Цвет обводки как основной цвет схемы
-		-- Новый параметр для прозрачности обводки в RJTheme1
-		StrokeTransparency = 0.35, -- Более прозрачная обводка
-		Thickness = 2, -- Увеличена толщина для этой темы
-		StrokeSizingMode = Enum.StrokeSizingMode.FixedSize, -- Используем FixedSize для этой темы
-		LineJoinMode = Enum.LineJoinMode.Round
+		ElementColor = Color3.fromRGB(20, 20, 20)
 	}
 }
 local oldTheme = ""
@@ -117,46 +101,22 @@ function User.CreateLib(usName, themeList)
 	if not themeList then
 		themeList = themes
 	end
-
-	if themeList == "RJTheme1" then
-		themeList = themeStyles.RJTheme1
+	if themeList == "User1" then
+		themeList = themeStyles.User1
 	else
-		-- === Проверка основных параметров ===
 		if themeList.SchemeColor == nil then
 			themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
-		end
-		if themeList.Background == nil then
+		elseif themeList.Background == nil then
 			themeList.Background = Color3.fromRGB(36, 37, 43)
-		end
-		if themeList.Header == nil then
+		elseif themeList.Header == nil then
 			themeList.Header = Color3.fromRGB(28, 29, 34)
-		end
-		if themeList.TextColor == nil then
-			themeList.TextColor = Color3.fromRGB(255, 255, 255)
-		end
-		if themeList.ElementColor == nil then
+		elseif themeList.TextColor == nil then
+			themeList.TextColor = Color3.fromRGB(255,255,255)
+		elseif themeList.ElementColor == nil then
 			themeList.ElementColor = Color3.fromRGB(32, 32, 38)
 		end
-		-- === Проверка параметров UIStroke (НОВЫЕ ДОБАВЛЕНИЯ) ===
-		if themeList.StrokeColor == nil then
-			themeList.StrokeColor = Color3.fromRGB(95, 66, 190)
-		end
-		if themeList.StrokeTransparency == nil then
-			themeList.StrokeTransparency = 0.35
-		end
-		if themeList.Thickness == nil then
-			themeList.Thickness = 2
-		end
-		if themeList.StrokeSizingMode == nil then
-			-- Используем Enum.StrokeSizingMode.Outer как значение по умолчанию
-			themeList.StrokeSizingMode = Enum.StrokeSizingMode.Outer
-		end
-		if themeList.LineJoinMode == nil then
-			-- Используем Enum.LineJoinMode.Round как значение по умолчанию
-			themeList.LineJoinMode = Enum.LineJoinMode.Round
-		end
-	-- Остальной код функции User.CreateLib...
-end
+	end
+
 	themeList = themeList or {}
 	local selectedTab 
 	usName = usName or "Library"
@@ -207,16 +167,6 @@ end
 	Main.ClipsDescendants = true
 	Main.Position = UDim2.new(0.336503863, 0, 0.275485456, 0)
 	Main.Size = UDim2.new(0, 525, 0, 318)
-
-	-- === ДОБАВЛЕНИЕ UIStroke ===
-	local MainStroke = Instance.new("UIStroke")
-	MainStroke.Color = themeList.StrokeColor
-	MainStroke.Transparency = themeList.StrokeTransparency
-	MainStroke.Thickness = themeList.Thickness
-	MainStroke.StrokeSizingMode = themeList.StrokeSizingMode
-	MainStroke.LineJoinMode = themeList.LineJoinMode
-	MainStroke.Parent = Main
-	-- ==========================
 
 	MainCorner.CornerRadius = UDim.new(0, 4)
 	MainCorner.Name = "MainCorner"
