@@ -117,22 +117,47 @@ function User.CreateLib(usName, themeList)
 	if not themeList then
 		themeList = themes
 	end
+
 	if themeList == "RJTheme1" then
 		themeList = themeStyles.RJTheme1
 	else
+		-- === Проверка основных параметров ===
 		if themeList.SchemeColor == nil then
 			themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
-		elseif themeList.Background == nil then
+		end
+		if themeList.Background == nil then
 			themeList.Background = Color3.fromRGB(36, 37, 43)
-		elseif themeList.Header == nil then
+		end
+		if themeList.Header == nil then
 			themeList.Header = Color3.fromRGB(28, 29, 34)
-		elseif themeList.TextColor == nil then
-			themeList.TextColor = Color3.fromRGB(255,255,255)
-		elseif themeList.ElementColor == nil then
+		end
+		if themeList.TextColor == nil then
+			themeList.TextColor = Color3.fromRGB(255, 255, 255)
+		end
+		if themeList.ElementColor == nil then
 			themeList.ElementColor = Color3.fromRGB(32, 32, 38)
 		end
-	end
 
+		-- === Проверка параметров UIStroke (НОВЫЕ ДОБАВЛЕНИЯ) ===
+		if themeList.StrokeColor == nil then
+			themeList.StrokeColor = Color3.fromRGB(95, 66, 190)
+		end
+		if themeList.StrokeTransparency == nil then
+			themeList.StrokeTransparency = 0.35
+		end
+		if themeList.Thickness == nil then
+			themeList.Thickness = 2
+		end
+		if themeList.StrokeSizingMode == nil then
+			-- Используем Enum.StrokeSizingMode.Outer как значение по умолчанию
+			themeList.StrokeSizingMode = Enum.StrokeSizingMode.Outer
+		end
+		if themeList.LineJoinMode == nil then
+			-- Используем Enum.LineJoinMode.Round как значение по умолчанию
+			themeList.LineJoinMode = Enum.LineJoinMode.Round
+		end
+	-- Остальной код функции User.CreateLib...
+end
 	themeList = themeList or {}
 	local selectedTab 
 	usName = usName or "Library"
